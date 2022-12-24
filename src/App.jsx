@@ -2,6 +2,7 @@ import { Layout } from 'antd'
 import { BrowserRouter as Router} from 'react-router-dom'
 import './App.css'
 import { AppFooter, AppHeader, PageContent } from './components'
+const { Header, Footer, Sider, Content } = Layout;
 const App = () => {
 
   
@@ -9,7 +10,7 @@ const App = () => {
     <div className="App" dir='rtl'>
       <Router>
         <Layout>
-          <AppHeader />
+          <Header><AppHeader /></Header>
           <PageContent />
           <AppFooter />
         </Layout>
