@@ -1,0 +1,24 @@
+/* .App {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+} */
+
+/* .AppHeader {
+    height: 60px;
+}
+.PageContent {
+    display: flex;
+    flex: 1;
+    overflow-y: auto;
+}
+.AppFooter {
+    height: 60px;
+    background-color: black;
+} */
+
+.itemCardImage {
+    height: 250px !important;
+    object-fit: scale-down;
+}
